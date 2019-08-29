@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e272e"
+    tools:context=".OrtaResultActivity">
+
+    <TextView
+
+        android:id="@+id/tv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Good Luck For Other Games"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:id="@+id/yapilanpuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Points"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:id="@+id/bss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yapilanpuan"
+        android:layout_marginTop="16dp"
+        android:layout_alignLeft="@+id/home"
+        android:layout_alignStart="@+id/home"
+        android:text="Did Best Score"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="HighScore"
+        android:layout_alignLeft="@+id/bss"
+        android:layout_below="@+id/bss"
+        android:id="@+id/eniyiskor"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:text="Menu"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/home"
+        android:background="#eb2f06"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
